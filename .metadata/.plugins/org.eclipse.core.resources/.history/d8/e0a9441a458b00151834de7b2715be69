@@ -1,0 +1,19 @@
+package Strings;
+
+public class test {
+	public void fun(){
+		String arr ="// TODO Auto-generated method stub";
+		char [] ar = arr.toCharArray();
+		
+	}
+	
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+
+	}
+
+}
