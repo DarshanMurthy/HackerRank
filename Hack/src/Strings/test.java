@@ -19,12 +19,16 @@ public class test {
 	// This method is to reverse string without extra space!
 	public static void withoutExtraSpace() {
 		String str = "//This method is to reverse string without extra space!";
-		for (int i = 0; i < str.length(); i++) {
-			str = str.substring(1, str.length() - i) + str.substring(0, 1)
-					+ str.substring(str.length() - i, str.length());
-			System.out.println(str);
+		char[] arr = str.toCharArray();
+		
+		
+		
+		for (int i = 2; i < str.length()-2; i++) {
+
+			 
+			 System.out.println(str.substring(1, i).toString());
+
 		}
-		System.out.println(str.toString());
 
 	}
 
