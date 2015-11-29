@@ -1,0 +1,11 @@
+package FibSeries;
+
+public class Fib {
+
+	public static void main(String[] args) {
+		int N = 100;
+		fib(N);
+
+	}
+
+}

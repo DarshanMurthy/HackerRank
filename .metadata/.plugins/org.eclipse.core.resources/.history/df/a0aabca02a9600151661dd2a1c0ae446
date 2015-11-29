@@ -1,0 +1,12 @@
+package Strings;
+
+import java.util.Scanner;
+
+public class alternatestring {
+
+	public static void main(String[] args) {
+		Scanner In = new Scanner(System.in);
+
+	}
+
+}

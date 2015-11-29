@@ -1,0 +1,17 @@
+package Miscelleneous;
+
+import java.math.BigInteger;
+import java.text.DecimalFormat;
+
+public class Convert {
+
+	public static void main(String[] args) {
+	
+		DecimalFormat df = new DecimalFormat("###,##0.000");
+	        double val = .98765;
+	        System.out.println(df.format(val));
+		
+
+	}
+
+}

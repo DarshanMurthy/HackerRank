@@ -1,0 +1,31 @@
+package FibSeries;
+
+import java.math.BigInteger;
+import java.util.Scanner;
+
+public class Fib {
+	
+	public static BigInteger fib(int N){
+		
+	Scanner first = new Scanner(System.in);		
+		BigInteger In = new BigInteger(first.nextLine());
+		
+		BigInteger Inn = new BigInteger(first.nextLine());
+		
+		BigInteger fi= In.add(Inn);
+		
+		
+		return fi;
+		
+		
+		
+		
+	}
+
+	public static void main(String[] args) {
+		int N = 100;
+		System.out.print(fib(N));
+
+	}
+
+}

@@ -1,14 +1,26 @@
 package Miscelleneous;
 
+import java.math.BigInteger;
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
 public class Convert {
 
 	public static void main(String[] args) {
-		int arr[][] = { { 1, 2, 3 }, { 90, 87, 68 } };
-		for (int i = 0; i < arr.length; i++) {
-			for (int j = 0; j < arr.length; j++) {
-				System.out.print(arr[i][j]);
-			}
+
+		//DecimalFormat df = new DecimalFormat(".000");
+		//BigInteger val = 0000087656543.98765;
+		//System.out.println(df.format(val));
+
+		Scanner In = new Scanner(System.in);
+		int N = In.nextInt();
+        BigInteger Sum = new BigInteger("0");
+		for (int i = 0; i < N; i++) {
+			BigInteger val = In.nextBigInteger();
+			Sum=Sum.add(val);
+
 		}
+		System.out.println(Sum);
 
 	}
 

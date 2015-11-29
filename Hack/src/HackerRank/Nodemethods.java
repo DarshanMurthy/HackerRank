@@ -18,7 +18,7 @@ public class Nodemethods {
 				cur = cur.next;
 			}
 			cur.next = node;
-			cur.data = val;
+			cur.data = val; 
 
 		}
 	}

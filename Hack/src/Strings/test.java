@@ -20,13 +20,10 @@ public class test {
 	public static void withoutExtraSpace() {
 		String str = "//This method is to reverse string without extra space!";
 		char[] arr = str.toCharArray();
-		
-		
-		
-		for (int i = 2; i < str.length()-2; i++) {
 
-			 
-			 System.out.println(str.substring(1, i).toString());
+		for (int i = 2; i < str.length() - 2; i++) {
+
+			System.out.println(str.substring(1, i).toString());
 
 		}
 

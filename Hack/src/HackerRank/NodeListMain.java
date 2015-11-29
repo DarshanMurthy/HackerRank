@@ -10,7 +10,7 @@ public class NodeListMain {
 		node.insert(-1);
 		node.insert(90);
 		node.dispaly();
-		node.reverse();
+		//node.reverse();
 		//node.dispaly();
 
 	}

@@ -1,0 +1,24 @@
+package Strings;
+
+import java.util.Scanner;
+
+public class alter {
+
+	public static void main(String[] args) {
+		Scanner In = new Scanner(System.in);
+		int N = In.nextInt();
+		for(int i=0;i<N;i++){
+            String arr=In.nextLine();
+            char[] ar = arr.toCharArray();
+            int deletion =0;
+            for(int j=0;j<ar.length;j++){
+                if(ar[j]==ar[j+1]){
+                    deletion++;
+                }
+            }
+            System.out.println(deletion);
+            
+        }
+	}
+
+}
