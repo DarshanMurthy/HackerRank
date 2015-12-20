@@ -3,18 +3,23 @@ package Palindrome;
 public class Palindrome {
 
 	public static void check(String args) {
-		char val[] = args.toCharArray();
+		int N = args.length();
+		
 
-		for (int i = 0; i < val.length; i++) {
+		for (int i = 0; i < N; i++) {
+			if (args.charAt(i) != args.charAt(N - i - 1)) {
+				System.out.println("False");
+
+			}
 
 		}
 
 	}
 
 	public static void main(String[] args) {
-		System.out.println("Palindrome");
+		System.out.println("PalilaP");
 
-		check("Darshan Tumkur Sree");
+		check("Darsha");
 
 	}
 

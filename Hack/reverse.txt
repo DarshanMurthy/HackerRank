@@ -1,0 +1,37 @@
+
+
+Node next = tmp.next;
+while(tmp != null){
+
+So what happens when tmp == null?
+
+You almost got it, though.
+
+Node before = null;
+Node tmp = head;
+while (tmp != null) {
+    Node next = tmp.next;
+    tmp.next = before;
+    before = tmp;
+    tmp = next;
+}
+head = before;
+
+Or in nicer (?) naming:
+
+Node reversedPart = null;
+Node current = head;
+while (current != null) {
+    Node next = current.next;
+    current.next = reversedPart;
+    reversedPart = current;
+    current = next;
+}
+head = reversedPart;
+
+ASCII art:
+
+        <__<__<__ __ : reversedPart    : head
+                 (__)__ __ __
+head :   current:      >  >  >
+

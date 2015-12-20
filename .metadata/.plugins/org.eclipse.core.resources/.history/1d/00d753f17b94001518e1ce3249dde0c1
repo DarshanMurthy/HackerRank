@@ -1,9 +1,0 @@
-package AngryProfessor;
-
-public class AngryProfessor {
-
-	public static void main(String[] args) {
-		Scanner In = new Scanner(System.in);
-	}
-
-}
